@@ -29,7 +29,7 @@ git clone https://github.com/Openwrt-Passwall/openwrt-passwall2 package/passwall
 # git clone https://github.com/asvow/luci-app-tailscale package/luci-app-tailscale
 
 # Modify default IP
-sed -i 's/192.168.6.1/192.168.10.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.6.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
 # defconfig
 # cp -f ../.config .config
